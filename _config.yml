@@ -2,7 +2,7 @@
 permalink:      /:year-:month-:day/:title
 
 # Setup
-title:          Tale
+title:          Software Holic
 paginate:       5
 baseurl:        "/"
 url:            "https://ashcroft147.github.io"
