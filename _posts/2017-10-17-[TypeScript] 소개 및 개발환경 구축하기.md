@@ -1,7 +1,13 @@
 ## TypeScript란
  - TypeScript는 컴파일하면 Javascript가 되는(Compile-to-Javascript) 언어이다. 컴파일 시점에 에러 체크를 수행하고 전통적인 객체지향 프로그래밍 패턴을 도입한다.
- - TypeScirpt는 classs, module, interface, static typing을 제공하고 이러한 기능들을 기반으로 더욱 견고한 Javascript 코드를 만들어 낼 수 있다. 
+ - TypeScirpt는 class, module, interface, static typing을 제공하고 이러한 기능들을 기반으로 더욱 견고한 Javascript 코드를 만들어 낼 수 있다. 
  - TypeScript는 ES5 문법의 Super Set 이며, ES6에서 제안된 여러가지 기능들을 동일한 문법으로 제공한다.
+
+## TypeScript를 왜 사용할까 ?
+아래 왼쪽 코드와 같이 Greeter 인스턴스 생성시 string으로 정의된 파라미터에 object를 할당하면 Type불일치에 따른 Compile 에러를 확인할 수 있습니다. 
+![1](./_img/2017.10/1.png)
+
+더불어, Javascript는 언어의 표준은 게속해서 변화하지만, 실제 Javascript가 실행되는 브라우저 엔진에서 새롭게 추가된 Spec의 구현을 빠르게 업데이트 하지 못합니다. 하지만 Typescript를 통해 새로운 기능들을 빠르게 개발에 활용할 수 있으며 Compiler를 통해 브라우저 실행환경에 맞는 Javascript로 변환하여 줍니다.TypeScript 자체로는 브라우저에서 사용할 수 없으므로 반드시 Compilation 과정을 거쳐야만 합니다. 
 
 ## TypeScript의 장점
  - 자바스크립트 사용시 타입 체크를 위한 코드나 테스트를 작성하지 않아도 된다. 
@@ -9,17 +15,18 @@
  - ES6의 기능들을 사용할 수 있다. (클래스)
 
 ## TypeScript의 설치
- - npm을 사용해서 설치
- - 설치가 완료되면 tsc 명령어를 command line에서 실행시켜본다.
+TypeScript의 설치를 위해서는 NPM이 설치되어 있어야 하며, NodeJS를 설치하면 NPM이 번들로 설치되므로 NodeJS를 설치하도록 한다. 
  ~~~
  npm install -g typescript 
  ~~~
+설치가 완료되면 tsc 명령어를 command line에서 실행시켜 수행여부를 확인한다.
 
 ## TypeScirpt Compile 명령어
- - typescript compiler를 사용하여 .ts 파일을 compile 한다.
+typescript compiler(tsc)를 사용하여 .ts 파일을 compile 하여 .js 파일을 생성한다.
 ~~~
 tsc helloworld.ts
 ~~~
+위의 명령어를 실행하면 helloworld.js 의 Javascript로 변환된 파일이 생성된다. 
 
 ## TypeScript Compiler 설정
  - TypeScript v1.5 부터 TypeScript는 tsconfig.json 파일을 통해서 환경설정을 할 수 있다. 
