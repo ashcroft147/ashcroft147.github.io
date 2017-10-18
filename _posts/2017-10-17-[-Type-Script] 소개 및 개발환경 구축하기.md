@@ -5,7 +5,7 @@
 
 ## TypeScript를 왜 사용할까 ?
 아래 왼쪽 코드와 같이 Greeter 인스턴스 생성시 string으로 정의된 파라미터에 object를 할당하면 Type불일치에 따른 Compile 에러를 확인할 수 있습니다. 
-![1]({site.url}assets/image/2017/10/post_2017-10-17-1.png)
+![1]({site.baseurl}assets/image/2017/10/post_2017-10-17-1.png)
 
 더불어, Javascript는 언어의 표준은 게속해서 변화하지만, 실제 Javascript가 실행되는 브라우저 엔진에서 새롭게 추가된 Spec의 구현을 빠르게 업데이트 하지 못합니다. 하지만 Typescript를 통해 새로운 기능들을 빠르게 개발에 활용할 수 있으며 Compiler를 통해 브라우저 실행환경에 맞는 Javascript로 변환하여 줍니다.TypeScript 자체로는 브라우저에서 사용할 수 없으므로 반드시 Compilation 과정을 거쳐야만 합니다. 
 
