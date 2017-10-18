@@ -15,3 +15,7 @@ comments: true
 ## Universal Embed Code 붙이기
 
 ## disqus.html 파일 포함하기
+
+## TroubleShooting
+
+### We were unable to load Disqus. If you are a moderator please see our troubleshooting guide.
