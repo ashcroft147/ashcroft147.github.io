@@ -1,3 +1,9 @@
+---
+layout: post
+tags: [TypeScript]
+comments: true
+---
+
 ## TypeScript란
  - TypeScript는 컴파일하면 Javascript가 되는(Compile-to-Javascript) 언어이다. 컴파일 시점에 에러 체크를 수행하고 전통적인 객체지향 프로그래밍 패턴을 도입한다.
  - TypeScirpt는 class, module, interface, static typing을 제공하고 이러한 기능들을 기반으로 더욱 견고한 Javascript 코드를 만들어 낼 수 있다. 
