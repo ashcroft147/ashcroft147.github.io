@@ -1,3 +1,11 @@
+---
+layout: post
+title: Github Page Disqus 연동하기
+date: 2017-10-19 00:00:00 +0300
+description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
+tags: [Disqus, Github Page]
+comments: true
+---
 ## Disqus 설정
 1. Disqus에 가입
 1. 
