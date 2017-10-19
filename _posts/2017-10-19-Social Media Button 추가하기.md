@@ -1,11 +1,10 @@
 ---
 layout: post
-title: Social Media Button 
+title: WepPage에 Social Button 추가하기 
 date: 2017-10-19 00:00:00 +0300
 tags: [Social, CSS]
 comments: true
 ---
-# WepPage에 Social Button 추가하기
 
 ## Font Awesome Download
  - 아래의 링크를 통하여 Font Awesome을 DownLoad하고, 해당 CSS파일을 추가한다.
