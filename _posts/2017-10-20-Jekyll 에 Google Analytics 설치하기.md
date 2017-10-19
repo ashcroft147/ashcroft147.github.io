@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Jekyll에 Google Analystic 설치하기
-tags: [TypeScript]
+title: Jekyll에 Google Analytics 설치하기
+tags: [Jekyll,Google Analytics]
 comments: true
 ---
 
@@ -20,9 +20,11 @@ Google Analytics은 website에 유입되는 web traffic을 분석하기 위해 �
 Google Analytics는 계정을 생성하여 추적하고자 하는 웹사이트의 정보를 셋업하면 된다. 가입은 [Google 애널리틱스](https://analytics.google.com/analytics/web/?authuser=0#provision/SignUp/) 홈페이지를 통해서 진행한다. 
 
 - 가입 클릭
+
 ![1](../assets/image/2017/10/20/2017-10-20-1.png)
 
 - 웹사이트 정보 입력 및 약관 동의
+
 ![2](../assets/image/2017/10/20/2017-10-20-2.png)
 
 ## 추적코드(tracking code) 확인

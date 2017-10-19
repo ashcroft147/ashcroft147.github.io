@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [TypeScript] 소개 및 개발환경 구축하기
+title: TypeScript 소개 및 개발환경 구축하기
 tags: [TypeScript]
 comments: true
 ---
