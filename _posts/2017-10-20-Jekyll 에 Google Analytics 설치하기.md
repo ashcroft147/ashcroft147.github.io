@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Jekyll에 Google Analytics 설치하기
-tags: [Jekyll,Google Analytics]
 comments: true
 ---
 
