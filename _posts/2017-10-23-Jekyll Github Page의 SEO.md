@@ -15,7 +15,6 @@ plugins:
 2. </head> tag 바로 이전에 다음 구문을 추가한다. 나의 경우에는 _includes/head.html에 다음과 같이 정의했다.
 ~~~
 <head>
-  . . .
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700">
   {% seo %}
 </head>
