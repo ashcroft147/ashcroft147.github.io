@@ -69,7 +69,7 @@ JSON-LD는 RDF 그래프와 데이터셋을 위한 JSON 구문을 제공함
 ### OG(Open Graph) title, description, site title
 
 Facebook 에서 만든 Open Graph Protocol 은 각 웹페이지에서 meta 태그로 작성되어 웹페이지의 미리보기를
-구성하는 정보입니다. 오픈그래프에 대한 상세한 참조는 [링크의 미리보기 제목, 설명, 이미지를 결정하는 open graph 태그]http://blog.ab180.co/open-graph-as-a-website-preview/ 및 [오픈그래프](http://ogp.me/) 공식 사이트에 상세히 설명되어 있다
+구성하는 정보입니다. 오픈그래프에 대한 상세한 참조는 [링크의 미리보기 제목, 설명, 이미지를 결정하는 open graph 태그](http://blog.ab180.co/open-graph-as-a-website-preview/) 및 [오픈그래프](http://ogp.me/) 공식 사이트에 상세히 설명되어 있다
 
 
 ## 참고자료
