@@ -1,8 +1,6 @@
 ---
 layout: post
 title: WepPage에 Social Button 추가하기 
-date: 2017-10-19 00:00:00 +0300
-tags: [Social, CSS]
 comments: true
 ---
 

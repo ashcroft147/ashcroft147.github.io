@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Jekyll GitHub Page Disqus와 연동하기
-date: 2017-10-19 00:00:00 +0300
-tags: [Disqus, Github Page, Jekyll]
 comments: true
 ---
 ## Disqus 설정
