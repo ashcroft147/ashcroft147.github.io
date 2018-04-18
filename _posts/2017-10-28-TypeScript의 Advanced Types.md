@@ -63,6 +63,10 @@ pet.swim();    // errors
 
 ## never Type
 
+never Type 종료
+ - 아무런 return 이 없는 함수( while(true) )
+ - Error 인스턴스를 throw 하는 함수 해당 함수의 return type은 never 이다.
+
 ## nullable Type
 
 ## 참고자료
